@@ -2,26 +2,44 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Provide a brief description of your project here.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Explain how to use your project here. Include any relevant code examples or screenshots.
 
-## Running unit tests
+## Contributing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+If you would like to contribute to this project, please follow these steps:
 
-## Running end-to-end tests
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
 
-## Further help
+Include information about the license for your project here.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+
+Provide contact information for users to reach out to you with questions or feedback.
+
+## API Key
+
+This project utilizes an API key for accessing certain features. To use this project, you will need to obtain an API key and configure it in the following way:
+
+1. Visit the [API provider's website](https://www.example.com) and sign up for an account.
+2. Once you have an account, navigate to the API settings or dashboard.
+3. Generate an API key for this project.
+4. Copy the API key and paste it into the appropriate configuration file in your project.
+
+Make sure to keep your API key secure and avoid sharing it publicly. 5. In the appropriate configuration file of your project, such as `src/environments/environment.ts`, add the following code:

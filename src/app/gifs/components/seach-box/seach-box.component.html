@@ -1,0 +1,21 @@
+<div class="input-group mb-3 d-flex gap-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text bg-dark text-white border-0">Buscar...</span>
+  </div>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Buscar gifs.."
+    (keyup.enter)="searhTag()"
+    #txtTagInput
+  />
+  <div class="input-group-append">
+    <button
+      class="btn btn-outline-secondary"
+      type="button"
+      (click)="searhTag()"
+    >
+      Go
+    </button>
+  </div>
+</div>
